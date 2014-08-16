@@ -1,6 +1,6 @@
 <?php
 
-namespace RCatlin\Autocomplete\Exception;
+namespace RCatlin\CustomSearch\Autocomplete\Exception;
 
 class QueryBuilderException extends \Exception
 {

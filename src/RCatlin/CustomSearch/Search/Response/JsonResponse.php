@@ -1,6 +1,6 @@
 <?php
 
-namespace RCatlin\CustomSearch\Search;
+namespace RCatlin\CustomSearch\Search\Response;
 
 class JsonResponse
 {
