@@ -16,7 +16,7 @@ class RestClient extends BaseRestClient
             'url' => $url,
             'method' => $method,
             'status' => $statusCode,
-            'response' => new JsonResponse($response);
+            'response' => new JsonResponse($response)
         );
     }
 }

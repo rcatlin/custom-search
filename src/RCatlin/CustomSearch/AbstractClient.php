@@ -45,5 +45,10 @@ abstract class AbstractClient implements ClientInterface
         return $this->send($this->baseUrl . $queryString, 'GET');
     }
 
+    /**
+     * @param  string $url
+     * @param  string $method
+     * @return mixed
+     */
     abstract protected function send($url, $method);
 }

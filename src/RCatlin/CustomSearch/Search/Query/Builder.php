@@ -395,7 +395,6 @@ class Builder
      * @param  array                                   $params
      * @return RCatlin\CustomSearch\Search\Query\Query $this
      */
-     */
     public function set(array $params = array())
     {
         foreach ($params as $key => $value) {
@@ -965,6 +964,6 @@ class Builder
         // Create Query String
         $queryString = '?' . implode('&', $params);
 
-        return new Query($queryString)''
+        return new Query($queryString);
     }
 }
