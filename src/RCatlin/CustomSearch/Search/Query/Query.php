@@ -38,9 +38,9 @@ class Query
     public function execute()
     {
         if ($this->client === null) {
-            $client = new RestClient($query);
+            $this->client = new RestClient();
         }
 
-        return $client->execute();
+        return $this->client->execute($this->query);
     }
 }

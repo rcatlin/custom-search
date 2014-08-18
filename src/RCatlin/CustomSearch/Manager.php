@@ -97,7 +97,7 @@ class Manager
      */
     protected function createSearchQueryBuilder()
     {
-        new SearchQueryBuilder();
+        return new SearchQueryBuilder();
     }
 
     /**
